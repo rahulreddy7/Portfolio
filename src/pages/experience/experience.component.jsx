@@ -31,17 +31,19 @@ const Experience = () => {
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed </strong>web modules using Spring MVC for Anthem health Insurance that retrieves and updates the details of
-Medicaid & Medicare coverage for 10 million users.</li>
-                      <li>Replaced the SOA service calls with Rest APIs & <strong>implemented structured hashing </strong> in Redis Cache thereby achieving
-a reduction in the production service timeouts by 70%.
+                      <li>Developed web modules using <strong>Java Spring MVC</strong> for Anthem health Insurance that retrieves and updates the
+details of Medicaid & Medicare coverage for 10 million users..</li>
+                      <li>Replaced the SOA service calls with <strong>Rest APIs</strong>. Implemented structured hashing & distributed locking in Redis
+Cache thereby achieving a reduction in the production service timeouts by 70% and an increase in fault tolerance.
                       </li>
                       <li><strong>Optimized</strong> service layers, request queues, and MSSQL data model to handle a request load of 10000 per sec.
 Configured application with the Nginx web server for load balancing. 
                       </li>
-                      <li><strong>Collaborated</strong> with cross-functional teams to develop a UI and automation for the business team to audit the
-resolved tickets using React JS & Django which reduced the manual effort by 50%.</li>
-                      <li><strong>Built</strong> CI/CD pipelines using Jenkins, Docker. Managed automatic deployment using custom scripts.</li>
+                      <li>Performed Unit and Integration testing using <strong>JUnit, Mockito</strong> ensuring 90% code coverage. Ensured 99% uptime by
+developing a custom script that remotely performs a health check on prod servers and sends alerts utilizing Splunk
+logs and Micrometer. Spearheaded deployment using <strong>Docker</strong> containers, built CI/CD pipelines using <strong>Jenkins</strong>.</li>
+                      <li>Created iterative wireframes and prototypes using Axure RP9 and came up with a high fidelity UI dashboard for
+the business audit team which improved the usability and responsiveness by 60%.</li>
                     </ul>
                     
                     
@@ -69,15 +71,15 @@ resolved tickets using React JS & Django which reduced the manual effort by 50%.
                     {/* <strong className="body-title-style ">Full Stack Developer</strong> */}
                     <strong>Duration:</strong> January 2017 - May 2017
                     <br />
-                    <strong>Technology:</strong> Node JS, Ionic Framework, FireBase
+                    <strong>Technology:</strong> Java, SpringBoot, Python, ElasticSearch, Kibana, Logstash
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li>Developed a <strong>cross-platform compatible</strong> NFC based mobile payment application using Ionic framework & Node JS.</li>
-                      <li>Created a mechanism to integrate multiple third-party accounts to pay a single bill. Implemented a QR code schema to
-deliver bills to customers.</li>
-                      <li>Integrated the app with <strong>Firebase cloud database</strong> and developed a custom OAuth model using 3rd party API for
-authentication and securing the transactions of users.</li>
+                      <li>Designed and implemented a fraud detection pipeline using Java <strong>Spring Boot</strong> in an SOA fashion using Docker
+that interacts with ML models using Rest API. Leveraged supervised ML on split & deposit user data to train a
+<strong> multi-layer perceptron</strong> and random forest models that would aid in investigating more than 3 million records</li>
+                      <li>Implemented a data analytics service using <strong>Elastic Search</strong> to track the customers. Written grok filters in Logstash
+to identify the anomalies in transactions and utilized Kibana dashboards for real-time visualization.</li>
                     </ul>
                   </Card.Text>
                 </div>
